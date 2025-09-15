@@ -15,7 +15,7 @@ except Exception as e:
 
 @app.route('/')
 def home():
-  return jsonify({'message': 'Sales Prediction API is running'})
+  return jsonify({'message': 'Sales Prediction API is running for Ashish'})
 
 @app.route('/predict', methods=['POST'])
 def predict():
